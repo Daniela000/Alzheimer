@@ -1,0 +1,25 @@
+
+\begin{table}[htbp]
+\centering
+\caption{Best Classifier Performance and Selected Features}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Best Classifier} & SVC \\
+\hline
+\textbf{Classifier Parameters} & {'classification__C': 10, 'classification__class_weight': None, 'classification__kernel': 'rbf', 'classification__probability': True, 'classification__random_state': 42} \\
+\hline
+\textbf{Number of Features} & 71 \\
+\hline
+\textbf{Feature List} & RELN, NPTXR, CNTN2, CBLN4, NRX1A, NRP2, CLC11, EPDR1, CNTP4, PEBP1, EFNB3, ITIH1, NEUS, CADH2, PLXB2, TAGL, idade, CSPG2, HRG, CIP4, APOL1, LFNG, GRIA4, PGS2, APLP1, MYO6, ACTS, TIMP2, HBB, LV657, IBP6, KPYM, KCC2A, EGFLA, HPT, APOA1, OMD, CERU, SORL, KV37, TRFE, TPP1, FGFR2, C1RL, SPON1, ANT3, PHLD, AEBP1, CH3L1, CBLN1, COMP, CO9, NAR3, SLIK1, ROBO1, THBG, COFA1, NBL1, CSFdataabeta42, FHR2, MA1C1, APOB, B4GA1, VWF, SCG1, HEMO, SLIK4, FUCO2, A1BG, MMSE, IGA2 \\
+\hline
+\textbf{Best AUC} & 0.72 $\pm$ 0.21 \\
+\hline
+\textbf{Best Sensitivity} & 0.92 $\pm$ 0.10 \\
+\hline
+\textbf{Best Specificity} & 0.20 $\pm$ 0.33 \\
+\hline
+\textbf{Best Accuracy} & 0.70 $\pm$ 0.15 \\
+\hline
+\end{tabular}
+\label{tab:best_classifier}
+\end{table}

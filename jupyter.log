@@ -1,0 +1,56 @@
+nohup: ignoring input
+[I 2024-09-09 12:31:25.422 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-09-09 12:31:25.426 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-09-09 12:31:25.430 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-09-09 12:31:25.434 ServerApp] notebook | extension was successfully linked.
+[I 2024-09-09 12:31:25.655 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-09-09 12:31:25.678 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-09-09 12:31:25.680 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-09-09 12:31:25.682 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-09-09 12:31:25.683 LabApp] JupyterLab extension loaded from /home/lasige.di.fc.ul.pt/damaral/.local/lib/python3.8/site-packages/jupyterlab
+[I 2024-09-09 12:31:25.683 LabApp] JupyterLab application directory is /home/lasige.di.fc.ul.pt/damaral/.local/share/jupyter/lab
+[I 2024-09-09 12:31:25.684 LabApp] Extension Manager is 'pypi'.
+[I 2024-09-09 12:31:25.695 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-09-09 12:31:25.698 ServerApp] notebook | extension was successfully loaded.
+[I 2024-09-09 12:31:25.699 ServerApp] The port 8888 is already in use, trying another port.
+[I 2024-09-09 12:31:25.699 ServerApp] Serving notebooks from local directory: /home/lasige.di.fc.ul.pt/damaral/Alzheimer/Alzheimer/code
+[I 2024-09-09 12:31:25.699 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2024-09-09 12:31:25.699 ServerApp] http://localhost:8889/tree?token=9c9499502d08a75cc252d7c30d3df9e3597acc13de2d9b92
+[I 2024-09-09 12:31:25.699 ServerApp]     http://127.0.0.1:8889/tree?token=9c9499502d08a75cc252d7c30d3df9e3597acc13de2d9b92
+[I 2024-09-09 12:31:25.700 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-09-09 12:31:25.703 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/lasige.di.fc.ul.pt/damaral/.local/share/jupyter/runtime/jpserver-790376-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/tree?token=9c9499502d08a75cc252d7c30d3df9e3597acc13de2d9b92
+        http://127.0.0.1:8889/tree?token=9c9499502d08a75cc252d7c30d3df9e3597acc13de2d9b92
+[I 2024-09-09 12:31:25.729 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2024-09-09 12:34:26.394 ServerApp] Kernel started: 27ccda44-748a-4746-ba89-10e31eda26d5
+[I 2024-09-09 12:34:26.942 ServerApp] Connecting to kernel 27ccda44-748a-4746-ba89-10e31eda26d5.
+[I 2024-09-09 12:34:27.060 ServerApp] Starting buffering for 27ccda44-748a-4746-ba89-10e31eda26d5:15e678e4-a3b7-473e-b0d1-c3797729de35
+[I 2024-09-09 12:34:27.063 ServerApp] Connecting to kernel 27ccda44-748a-4746-ba89-10e31eda26d5.
+[I 2024-09-09 12:34:27.136 ServerApp] Connecting to kernel 27ccda44-748a-4746-ba89-10e31eda26d5.
+[I 2024-09-09 12:34:32.365 ServerApp] Connecting to kernel 27ccda44-748a-4746-ba89-10e31eda26d5.
+[I 2024-09-09 12:36:26.092 ServerApp] Saving file at /predict_conversion.ipynb
+[I 2024-09-09 12:38:26.427 ServerApp] Saving file at /predict_conversion.ipynb
+[I 2024-09-09 12:40:27.052 ServerApp] Saving file at /predict_conversion.ipynb
+[I 2024-09-09 12:42:27.384 ServerApp] Saving file at /predict_conversion.ipynb
+[I 2024-09-09 12:44:27.806 ServerApp] Saving file at /predict_conversion.ipynb
+[I 2024-09-09 12:46:28.162 ServerApp] Saving file at /predict_conversion.ipynb
+[I 2024-09-09 12:48:28.380 ServerApp] Saving file at /predict_conversion.ipynb
+[I 2024-09-09 12:50:28.709 ServerApp] Saving file at /predict_conversion.ipynb
+[I 2024-09-09 12:52:29.318 ServerApp] Saving file at /predict_conversion.ipynb
+[I 2024-09-09 12:54:29.519 ServerApp] Saving file at /predict_conversion.ipynb
+[I 2024-09-09 12:56:29.681 ServerApp] Saving file at /predict_conversion.ipynb
+[I 2024-09-09 12:58:29.870 ServerApp] Saving file at /predict_conversion.ipynb
+[I 2024-09-09 13:00:30.108 ServerApp] Saving file at /predict_conversion.ipynb
+[I 2024-09-09 13:02:30.307 ServerApp] Saving file at /predict_conversion.ipynb
+[I 2024-09-09 13:04:30.490 ServerApp] Saving file at /predict_conversion.ipynb
+[W 2024-09-09 13:07:27.068 ServerApp] WebSocket ping timeout after 119776 ms.
+[I 2024-09-09 13:07:32.075 ServerApp] Starting buffering for 27ccda44-748a-4746-ba89-10e31eda26d5:cb8f3c59-1fd3-4d70-82f8-c867969388ba
+[C 2024-09-09 13:49:26.009 ServerApp] received signal 15, stopping
+[I 2024-09-09 13:49:26.012 ServerApp] Shutting down 5 extensions
+[I 2024-09-09 13:49:26.013 ServerApp] Shutting down 1 kernel
+[I 2024-09-09 13:49:26.017 ServerApp] Discarding 172 buffered messages for 27ccda44-748a-4746-ba89-10e31eda26d5:cb8f3c59-1fd3-4d70-82f8-c867969388ba
+[I 2024-09-09 13:49:26.018 ServerApp] Kernel shutdown: 27ccda44-748a-4746-ba89-10e31eda26d5
