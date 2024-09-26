@@ -1,0 +1,18 @@
+
+        \begin{table}[htbp]
+        \centering
+        \caption{Best Classifier Performance and Selected Features 2tw}
+        \begin{tabular}{|l|l|}
+        \hline
+        \textbf{AUC} & 0.44\
+        \hline
+        \textbf{Sensitivity} & 0.08 \
+        \hline
+        \textbf{Specificity} & 0.57 \
+        \hline
+        \textbf{Accuracy} & 0.25 \
+        \hline
+        \end{tabular}
+        \label{tab:best_classifier}
+        \end{table}
+        

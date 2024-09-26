@@ -1,0 +1,18 @@
+
+        \begin{table}[htbp]
+        \centering
+        \caption{Best Classifier Performance and Biclustering 4tw}
+        \begin{tabular}{|l|l|}
+        \hline
+        \textbf{AUC} & 0.61\\
+        \hline
+        \textbf{Sensitivity} & 1.00 \\
+        \hline
+        \textbf{Specificity} & 0.00 \\
+        \hline
+        \textbf{Accuracy} & 0.90 \\
+        \hline
+        \end{tabular}
+        \label{tab:best_classifier}
+        \end{table}
+        

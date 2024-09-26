@@ -1,0 +1,25 @@
+
+\begin{table}[htbp]
+\centering
+\caption{Best Classifier Performance and Selected Features}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Best Classifier} & SVC \\
+\hline
+\textbf{Classifier Parameters} & {'classification\__C': 10, 'classification\__class_weight': None, 'classification\__kernel': 'poly', 'classification\__probability': True, 'classification\__random_state': 42} \\
+\hline
+\textbf{Number of Features} & 13 \\
+\hline
+\textbf{Feature List} & COCA1, TPP1, HPT, CBLN1, ACYP2, GDIA, DHPR, HBB, TIMP2, SGCE, NPTXR, SODM, AFAM \\
+\hline
+\textbf{Best AUC} & 0.92 $\pm$ 0.12 \\
+\hline
+\textbf{Best Sensitivity} & 0.60 $\pm$ 0.49 \\
+\hline
+\textbf{Best Specificity} & 0.96 $\pm$ 0.08 \\
+\hline
+\textbf{Best Accuracy} & 0.86 $\pm$ 0.12 \\
+\hline
+\end{tabular}
+\label{tab:best_classifier}
+\end{table}

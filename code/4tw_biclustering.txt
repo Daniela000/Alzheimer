@@ -1,0 +1,21 @@
+
+\begin{table}[htbp]
+\centering
+\caption{Best Classifier Performance and Biclustering 4tw}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Best Classifier} & XGBgClassifier \\
+\hline
+\textbf{Classifier Parameters} &'biclustering\_method': 'log', 'biclustering\_n_clusters': 33, 'biclustering\_svd_method': 'randomized', 'classification\_learning_rate': 1, 'classification\_max_depth': 5, 'classification\_n_estimators': 50, 'classification\_objective': 'binary:logistic', 'classification\_random_state': 42 \\
+\hline
+\textbf{Best AUC} & 0.91 $\pm$ 0.10 \\
+\hline
+\textbf{Best Sensitivity} & 0.84 $\pm$ 0.08 \\
+\hline
+\textbf{Best Specificity} & 0.77 $\pm$ 0.29 \\
+\hline
+\textbf{Best Accuracy} & 0.81 $\pm$ 0.13 \\
+\hline
+\end{tabular}
+\label{tab:best_classifier}
+\end{table}

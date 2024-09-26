@@ -1,0 +1,25 @@
+
+\begin{table}[htbp]
+\centering
+\caption{Best Classifier Performance and Selected Features 3tw}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Best Classifier} & XGBgClassifier \\
+\hline
+\textbf{Classifier Parameters} & {'classification\_learning_rate': 0.01, 'classification\_max_depth': 5, 'classification\_n_estimators': 50, 'classification\_objective': 'binary:logistic', 'classification\_random_state': 42} \\
+\hline
+\textbf{Number of Features} & 4 \\
+\hline
+\textbf{Feature List} & HBB, HRG, IBP6, ACYP2 \\
+\hline
+\textbf{Best AUC} & 0.87 $\pm$ 0.09 \\
+\hline
+\textbf{Best Sensitivity} & 0.57 $\pm$ 0.25 \\
+\hline
+\textbf{Best Specificity} & 0.91 $\pm$ 0.11 \\
+\hline
+\textbf{Best Accuracy} & 0.78 $\pm$ 0.07 \\
+\hline
+\end{tabular}
+\label{tab:best_classifier}
+\end{table}

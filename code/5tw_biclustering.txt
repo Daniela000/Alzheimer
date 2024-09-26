@@ -1,0 +1,21 @@
+
+\begin{table}[htbp]
+\centering
+\caption{Best Classifier Performance and Biclustering 5tw}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Best Classifier} & RandomForestClassifier \\
+\hline
+\textbf{Classifier Parameters} & {'biclustering__method': 'log', 'biclustering__n_clusters': 31, 'biclustering__svd_method': 'arpack', 'classification__class_weight': None, 'classification__max_depth': 10, 'classification__max_features': 'log2', 'classification__n_estimators': 10, 'classification__random_state': 42} \\
+\hline
+\textbf{Best AUC} & 0.96 $\pm$ 0.08 \\
+\hline
+\textbf{Best Sensitivity} & 0.93 $\pm$ 0.08 \\
+\hline
+\textbf{Best Specificity} & 0.80 $\pm$ 0.40 \\
+\hline
+\textbf{Best Accuracy} & 0.89 $\pm$ 0.11 \\
+\hline
+\end{tabular}
+\label{tab:best_classifier}
+\end{table}

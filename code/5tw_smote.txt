@@ -1,0 +1,25 @@
+
+\begin{table}[htbp]
+\centering
+\caption{Best Classifier Performance and Selected Features}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Best Classifier} & RandomForestClassifier \\
+\hline
+\textbf{Classifier Parameters} & 'classification\_class_weight': None, 'classification<ß_max_depth': None, 'classification\_n_estimators': 10, 'classification\_random_state': 42 \\
+\hline
+\textbf{Number of Features} & 156 \\
+\hline
+\textbf{Feature List} & APOL1, NRP2, CIP4, TRFE, RELN, CLC11, SORL, APOA1, HPT, C163A, GRIA4, APLP2, PRELP, FGFR2, CBLN4, IGA2, PLXB2, TAGL, CNTN6, IBP6, SPON1, SAP, MMSE, SAA4, NPC2, ALBU, FRIL, CNTN2, SGCE, EFNB3, C1RL, CNTP4, EGFLA, MYO6, EPDR1, VGF, idade, CAHD1, NRX1A, PTPRF, MANBA, NEUS, RTN4R, A2AP, NAR3, TIMP2, KLKB1, AMBP, DHPR, KV127, TPP1, NEO1, CPVL, B4GA1, COMP, HBA, LFNG, APLP1, ALS, OMD, CSPG2, NPTXR, A1AG1, NID2, NCAN, FUCO2, KPYM, ROBO1, PEDF, FETUA, MA1C1, AEBP1, FGFR1, AFAM, CFAI, HRG, SAP3, ANT3, FHR1, PGS2, FUCO, HEMO, SODM, CADH2, COCA1, IGK, FBLN2, TTHY, LTBP1, NBL1, KV106, LDHB, HV349, ACTS, CBPQ, PEBP1, LV657, APOB, KV37, C4BPA, LTBP4, CFAB, FIBG, ITIH4, CSFdataabeta42, CO4B, APOA4, C1QA, RNAS4, COFA1, CO9, PPIC, DKK3, ICAM5, SLIK1, CNTP2, CERU, CSFdatatTau, PON1, CO6A2, VWF, H6ST3, GDIA, CBLN1, PTPRZ, A1BG, ITIH1, HV118, KNG1, C1QT3, HEXB, LV310, NID1, A1AG2, CSFdatapTau, PCDC2, sexo, C1QT1, SLIK4, FSTL5, SPRL1, A2GL, ICOSL, CO6, ZA2G, HBB, LV39, Cluster, CBPB2, ENDD1, DCC, KCC2A, C1QC, CBG, MDHC, ACYP2 \\
+\hline
+\textbf{Best AUC} & 0.91 $\pm$ 0.08 \\
+\hline
+\textbf{Best Sensitivity} & 0.87 $\pm$ 0.19 \\
+\hline
+\textbf{Best Specificity} & 0.70 $\pm$ 0.40 \\
+\hline
+\textbf{Best Accuracy} & 0.81 $\pm$ 0.14 \\
+\hline
+\end{tabular}
+\label{tab:best_classifier}
+\end{table}
