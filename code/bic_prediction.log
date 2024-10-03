@@ -8376,3 +8376,129 @@ AUC: 0.4473684210526315
  Specificity: 0.0 
  Accuracy: 0.85 
 
+2
+C:\Users\danis\AppData\Local\Temp\ipykernel_11916\3977669426.py:7: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  train_set.loc[:, 'sexo'] = train_set['sexo'].replace({'M' : 0, 'F': 1})
+C:\Users\danis\AppData\Local\Temp\ipykernel_11916\3977669426.py:13: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  X_test.loc[:, 'sexo'] = X_test['sexo'].replace({'M' : 0, 'F': 1})
+C:\Users\danis\AppData\Local\Temp\ipykernel_11916\3977669426.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X_test[numerical_features] = scaler.transform(X_test[numerical_features])
+Found 11 biclusters.
+2
+C:\Users\danis\AppData\Local\Temp\ipykernel_11916\3977669426.py:7: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  train_set.loc[:, 'sexo'] = train_set['sexo'].replace({'M' : 0, 'F': 1})
+C:\Users\danis\AppData\Local\Temp\ipykernel_11916\3977669426.py:13: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  X_test.loc[:, 'sexo'] = X_test['sexo'].replace({'M' : 0, 'F': 1})
+C:\Users\danis\AppData\Local\Temp\ipykernel_11916\3977669426.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X_test[numerical_features] = scaler.transform(X_test[numerical_features])
+Found 11 biclusters.
+    ID                                            Pattern n_samples
+0    0  [CSFdataabeta42 = [0.24, 0.50], SLIK4 = [0.09,...       [3]
+1    1  [HRG = [0.29, 1.00], CERU = [0.59, 1.00], FHR1...       [3]
+2    2  [ALS = [0.44, 0.45], SE6L1 = [0.67, 0.72], CO9...       [5]
+3    3  [ZA2G = [0.15, 0.15], LTBP1 = [1.00, 1.00], FS...       [2]
+4    4  [C1QT1 = [0.58, 0.60], TPP1 = [0.18, 0.19], C1...       [2]
+5    5  [OMD = [0.02, 0.53], SCG1 = [0.13, 0.27], MA1C...       [2]
+6    6  [PLXB2 = [0.04, 0.15], GRIA4 = [0.21, 1.00], P...       [2]
+7    7  [idade = [0.67, 0.67], MMSE = [0.11, 0.11], AP...       [2]
+8    8         [CLC11 = [0.06, 0.06], VWF = [0.04, 0.04]]       [2]
+9    9  [C1RL = [0.10, 0.27], FHR2 = [0.06, 0.10], CHR...       [2]
+10  10  [NEO1 = [0.18, 0.61], VGF = [0.11, 0.30], GLU2...       [3]
+AUC: 0.39560439560439564 
+ Sensitivity: 0.0 
+ Specificity: 1.0 
+ Accuracy: 0.35 
+
+3
+C:\Users\danis\AppData\Local\Temp\ipykernel_11916\3977669426.py:7: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  train_set.loc[:, 'sexo'] = train_set['sexo'].replace({'M' : 0, 'F': 1})
+C:\Users\danis\AppData\Local\Temp\ipykernel_11916\3977669426.py:13: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  X_test.loc[:, 'sexo'] = X_test['sexo'].replace({'M' : 0, 'F': 1})
+C:\Users\danis\AppData\Local\Temp\ipykernel_11916\3977669426.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X_test[numerical_features] = scaler.transform(X_test[numerical_features])
+Found 11 biclusters.
+    ID                                            Pattern n_samples
+0    0  [PLXB2 = [0.30, 1.00], ALS = [0.46, 1.00], PON...       [3]
+1    1  [ZA2G = [0.07, 0.18], CO6 = [0.07, 0.50], ACTS...       [2]
+2    2  [A1AG1 = [0.25, 0.26], ANT3 = [0.79, 0.80], OM...       [2]
+3    3  [LFNG = [0.06, 0.07], HBB = [0.31, 0.32], HBA ...       [2]
+4    4  [KCC2A = [0.18, 0.64], PEBP1 = [0.40, 0.68], P...       [4]
+5    5  [IBP7 = [0.66, 0.87], GLU2B = [0.38, 0.40], SA...       [2]
+6    6  [KV37 = [0.31, 0.54], A1BG = [0.64, 0.65], GDI...       [2]
+7    7  [sexo = [0.00, 1.00], GRIA4 = [0.08, 0.53], SP...       [4]
+8    8  [COCA1 = [0.00, 0.61], KLKB1 = [0.03, 0.49], C...       [4]
+9    9  [A2GL = [0.25, 0.53], NID1 = [0.26, 0.43], EGF...       [3]
+10  10  [APOA1 = [0.54, 0.78], APOA4 = [0.74, 1.00], A...       [2]
+AUC: 0.421875 
+ Sensitivity: 0.3125 
+ Specificity: 0.75 
+ Accuracy: 0.4 
+
+4
+C:\Users\danis\AppData\Local\Temp\ipykernel_11916\3977669426.py:7: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  train_set.loc[:, 'sexo'] = train_set['sexo'].replace({'M' : 0, 'F': 1})
+C:\Users\danis\AppData\Local\Temp\ipykernel_11916\3977669426.py:13: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  X_test.loc[:, 'sexo'] = X_test['sexo'].replace({'M' : 0, 'F': 1})
+C:\Users\danis\AppData\Local\Temp\ipykernel_11916\3977669426.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X_test[numerical_features] = scaler.transform(X_test[numerical_features])
+Found 11 biclusters.
+    ID                                            Pattern n_samples
+0    0  [NID1 = [0.44, 0.48], DCC = [0.05, 0.09], EFNB...       [2]
+1    1  [ANT3 = [0.78, 0.87], ICAM5 = [0.19, 0.61], KN...       [2]
+2    2  [LFNG = [0.08, 0.08], FSTL5 = [0.75, 0.79], FR...       [2]
+3    3  [ZA2G = [0.44, 0.44], LTBP1 = [0.35, 0.35], DH...       [2]
+4    4  [COMP = [0.16, 0.64], PLXB2 = [0.33, 0.43], AL...       [2]
+5    5  [MMSE = [0.44, 0.44], OMD = [0.16, 0.19], KV10...       [2]
+6    6  [APOA4 = [0.32, 0.45], TTHY = [0.19, 0.33], PG...       [2]
+7    7  [CSFdataabeta42 = [0.05, 0.07], EGFLA = [0.09,...       [2]
+8    8  [GRIA4 = [0.58, 0.88], C1QT1 = [0.35, 0.43], C...       [2]
+9    9  [CERU = [0.31, 0.62], HEMO = [0.21, 0.52], A1B...       [2]
+10  10  [FETUA = [0.43, 0.58], SORL = [0.13, 0.41], C1...       [2]
+AUC: 0.6111111111111112 
+ Sensitivity: 1.0 
+ Specificity: 0.0 
+ Accuracy: 0.9 
+
+5
+C:\Users\danis\AppData\Local\Temp\ipykernel_11916\3977669426.py:7: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  train_set.loc[:, 'sexo'] = train_set['sexo'].replace({'M' : 0, 'F': 1})
+C:\Users\danis\AppData\Local\Temp\ipykernel_11916\3977669426.py:13: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  X_test.loc[:, 'sexo'] = X_test['sexo'].replace({'M' : 0, 'F': 1})
+C:\Users\danis\AppData\Local\Temp\ipykernel_11916\3977669426.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X_test[numerical_features] = scaler.transform(X_test[numerical_features])
+Found 9 biclusters.
+   ID                                            Pattern n_samples
+0   0  [ANT3 = [0.34, 0.40], CERU = [0.00, 0.63], CBP...       [5]
+1   1  [APOL1 = [0.08, 0.49], ZA2G = [0.16, 0.22], PL...       [3]
+2   2  [VGF = [0.20, 0.22], ACTS = [0.83, 0.84], DSG2...       [3]
+3   3  [idade = [0.05, 0.67], MMSE = [0.11, 0.44], NR...       [3]
+4   4  [KV106 = [0.24, 0.24], CBLN4 = [0.49, 0.49], F...       [2]
+5   5  [APOA4 = [0.74, 1.00], COCA1 = [0.34, 0.38], E...       [2]
+6   6  [IBP6 = [0.99, 1.00], MDHC = [0.76, 0.77], CBP...       [2]
+7   7        [CLC11 = [0.03, 0.35], ALBU = [0.43, 0.96]]       [4]
+8   8  [A2GL = [0.37, 1.00], SLIK4 = [0.33, 0.58], CA...       [2]
+AUC: 0.4473684210526315 
+ Sensitivity: 0.8947368421052632 
+ Specificity: 0.0 
+ Accuracy: 0.85 
+
