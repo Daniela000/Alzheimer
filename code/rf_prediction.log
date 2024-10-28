@@ -14,19 +14,16 @@ Autosaving every 5 seconds
 [clusteval] >INFO> Saving data in memory.
 [clusteval] >INFO> Fit with method=[agglomerative], metric=[euclidean], linkage=[ward]
 [clusteval] >INFO> Evaluate using silhouette.
-[clusteval] >INFO:   0%|          | 0/23 [00:00<?, ?it/s][8.46365505e-03 4.40764331e-01 3.90372083e-01 5.81081081e-01
- 9.48486800e-01 5.61440678e-01 2.08986660e-01 2.54028436e-02
- 4.25019425e-01 4.90367167e-01 6.02664411e-02 4.32286024e-01
- 9.13437014e-04 4.40243902e-01 6.59341714e-01 1.73710904e-01
- 3.67378049e-01 5.05874223e-01 3.83524277e-01 5.45205479e-01
- 5.64241046e-02 3.05469556e-01 9.64673913e-02 1.09109109e-01
- 1.60054720e-01 2.63549416e-01 1.50000000e-01 6.47855530e-01
- 1.90775681e-01 2.13071363e-01 1.45619364e-03 1.25602495e-01
- 5.73007153e-02 2.06664022e-01 1.22846842e-02 6.51094027e-01
- 2.83333333e-01 1.91946309e-01 2.15557020e-01 4.76793249e-01
- 2.61317630e-01 4.89479131e-01 3.08357349e-01 1.33883249e-01
- 1.31931166e-02]
-[clusteval] >INFO> Saving data in memory.
-[clusteval] >INFO> Fit with method=[agglomerative], metric=[euclidean], linkage=[ward]
-[clusteval] >INFO> Evaluate using silhouette.
-[clusteval] >INFO:   0%|          | 0/23 [00:00<?, ?it/s]
+[clusteval] >INFO:   0%|          | 0/3 [00:00<?, ?it/s][clusteval] >INFO: 100%|██████████| 3/3 [00:00<00:00, 186.57it/s]
+[clusteval] >INFO> Compute dendrogram threshold.
+[clusteval] >INFO> Optimal number clusters detected: [2].
+[clusteval] >INFO> Fin.
+[clusteval] >INFO> Retrieving input data set.
+[clusteval] >INFO> Coordinates (x, y) are set based on the first two features.
+[clusteval] >INFO> Estimated number of n_clusters: 2, average silhouette_score=0.091
+[clusteval] >INFO> Retrieving input data set.
+[clusteval] >INFO> Plotting the dendrogram with optimized settings: metric=euclidean, linkage=ward, max_d=4.260. Be patient now..
+[clusteval] >INFO> Compute cluster labels.
+C:\Users\danis\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\metrics\_scorer.py:610: FutureWarning: The `needs_threshold` and `needs_proba` parameter are deprecated in version 1.4 and will be removed in 1.6. You can either let `response_method` be `None` or set it to `predict` to preserve the same behaviour.
+  warnings.warn(
+1
